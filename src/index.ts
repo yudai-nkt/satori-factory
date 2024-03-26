@@ -1,4 +1,4 @@
-import type { VNode } from "./jsx-runtime";
+import type { VNode } from "./jsx-runtime.js";
 
 export type FC<P extends Record<string, unknown> = Record<string, unknown>> = (
 	props: P,

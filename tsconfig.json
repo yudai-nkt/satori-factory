@@ -1,12 +1,7 @@
 {
-	"compilerOptions": {
-		"target": "es2022",
-		"moduleResolution": "bundler",
-		"strict": true,
-		"noUncheckedIndexedAccess": true,
-		"declaration": true,
-		"jsx": "react-jsx"
-	},
-	"include": ["src/*"],
-	"exclude": ["src/*.test.tsx"]
+	"files": [],
+	"references": [
+		{ "path": "./tsconfig.build.json" },
+		{ "path": "./tsconfig.test.json" }
+	]
 }

@@ -19,9 +19,10 @@
 	},
 	"files": ["dist"],
 	"scripts": {
-		"build": "tsup",
+		"build": "tsc --build tsconfig.build.json",
 		"lint": "biome check .",
-		"test": "vitest",
+		"test": "node --loader=tsx/esm src/jsx-runtime.test.tsx",
+		"prebuild": "node --eval 'fs.rmSync(`dist`, { recursive: true, force: true })'",
 		"prepack": "npm run build"
 	},
 	"keywords": ["jsx", "satori"],
@@ -29,8 +30,8 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^1.6.1",
-		"tsup": "^8.0.2",
-		"typescript": "^5.3.3",
-		"vitest": "^1.2.2"
+		"@types/node": "^20.11.30",
+		"tsx": "^4.7.1",
+		"typescript": "^5.3.3"
 	}
 }
