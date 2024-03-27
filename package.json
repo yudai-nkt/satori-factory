@@ -24,7 +24,7 @@
 		"lint": "biome check .",
 		"test": "node --loader=tsx/esm src/jsx-runtime.test.tsx",
 		"prebuild": "node --eval 'fs.rmSync(`dist`, { recursive: true, force: true })'",
-		"prepack": "npm run build"
+		"prepack": "npm run build -- --force"
 	},
 	"keywords": ["jsx", "satori"],
 	"author": "Yudai Nakata",
