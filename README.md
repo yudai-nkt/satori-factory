@@ -51,13 +51,18 @@ If you already use React in your project, this package is probably not for you.
 
 ### What's the motivation behind this package then?
 
-The primary usecase is non-React framework such as Astro or SvelteKit.
+The primary usecase is non-React framework such as Astro, SvelteKit, or HonoX.
 When you want to use Satori with these frameworks, you have to [use object literals](https://github.com/vercel/satori#use-without-jsx) instead of JSX expressions, which is quite cumbersome.
 Of course you can install React as an additional dependency but using React only for Satori might be a sledgehammer for a nut if you don't use it in the main part of your application.
 In addition to that, reducing server-side bundle size is becoming more important than ever due to the tight restriction in the emerging CDN edge computing platforms.
 
-Satory Factory is here to help you fill this gap.
+This is where Satory Factory comes in.
 It offers the ergonomics of JSX to Satori users while incurring as small build footprint as possible.
+
+### Satori is big enough that the size of React can be negligible, isn't it?
+
+Yes.
+Unfortunately and stupidly, I only noticed that fact after finishing the initial implementation of the package.
 
 ## License
 
