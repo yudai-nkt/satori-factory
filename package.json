@@ -1,6 +1,6 @@
 {
 	"name": "satori-factory",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Tiny yet full-fledged JSX factory for Satori",
 	"type": "module",
 	"exports": {
