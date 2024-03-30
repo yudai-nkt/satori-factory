@@ -28,6 +28,9 @@
 	},
 	"keywords": ["jsx", "satori"],
 	"author": "Yudai Nakata",
+	"homepage": "https://github.com/yudai-nkt/satori-factory",
+	"repository": "github:yudai-nkt/satori-factory",
+	"bugs": "https://github.com/yudai-nkt/satori-factory/issues",
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^1.6.1",
