@@ -1,6 +1,6 @@
 {
 	"name": "satori-factory",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Tiny yet full-fledged JSX factory for Satori",
 	"type": "module",
 	"exports": {
@@ -17,7 +17,9 @@
 			"types": "./dist/jsx-dev-runtime.d.ts"
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsc --build tsconfig.build.json",
 		"format": "biome format . --write",
@@ -26,7 +28,10 @@
 		"prebuild": "node --eval 'fs.rmSync(`dist`, { recursive: true, force: true })'",
 		"prepack": "npm run build -- --force"
 	},
-	"keywords": ["jsx", "satori"],
+	"keywords": [
+		"jsx",
+		"satori"
+	],
 	"author": "Yudai Nakata",
 	"homepage": "https://github.com/yudai-nkt/satori-factory",
 	"repository": "github:yudai-nkt/satori-factory",
