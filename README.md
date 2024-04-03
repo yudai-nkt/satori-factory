@@ -1,4 +1,6 @@
 # Satori Factory
+[![NPM Version](https://img.shields.io/npm/v/satori-factory?logo=npm)](https://www.npmjs.com/package/satori-factory)
+[![test](https://github.com/yudai-nkt/satori-factory/actions/workflows/test.yml/badge.svg)](https://github.com/yudai-nkt/satori-factory/actions/workflows/test.yml)
 
 Tiny yet full-fledged JSX factory for [Satori](https://github.com/vercel/satori).
 
