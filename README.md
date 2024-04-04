@@ -1,6 +1,7 @@
 # Satori Factory
 [![NPM Version](https://img.shields.io/npm/v/satori-factory?logo=npm)](https://www.npmjs.com/package/satori-factory)
 [![test](https://github.com/yudai-nkt/satori-factory/actions/workflows/test.yml/badge.svg)](https://github.com/yudai-nkt/satori-factory/actions/workflows/test.yml)
+[![bundle size](https://deno.bundlejs.com/badge?q=satori-factory/jsx-runtime&config=%7B%22compression%22:%22brotli%22%7D)](https://bundlejs.com/?q=satori-factory%2Fjsx-runtime&config=%7B%22compression%22%3A%22brotli%22%7D)
 
 Tiny yet full-fledged JSX factory for [Satori](https://github.com/vercel/satori).
 
@@ -19,7 +20,7 @@ const svg = await satori(<div>Hello, Satori Factory!</div>, {
 
 ## Features
 
-- ***Featherlight*** &mdash; Satori Factory has zero dependencies and can be minified to less than 0.3kB.
+- ***Featherlight*** &mdash; Satori Factory has zero dependencies and can be minified & brotli'd to less than 0.2kB.
 - ***Function component*** &mdash; You can define reusable components much like React.
 - ***Fine-tuned TypeScript support*** &mdash; Give unsupported CSS properties and you will get warned.
 
